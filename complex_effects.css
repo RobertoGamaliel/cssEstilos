@@ -1,0 +1,174 @@
+.circular-shape{
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+  }
+  
+  .frontal-white {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.616);
+    z-index: 999;
+    overflow-y: auto;
+  }
+  
+  .frontal-dark{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.349);
+    z-index: 999;
+    overflow-y: auto;
+  }
+  
+  .frontal-blur-white {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 999;
+    overflow-y: auto;
+    backdrop-filter: blur(4px);
+  }
+  
+  .frontal-blur-dark {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(8, 8, 8, 0.322);
+    z-index: 999;
+    overflow-y: auto;
+    backdrop-filter: blur(4px);
+  }
+  
+  .frontal-blur-transparent {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.0);
+    z-index: 999;
+    overflow-y: auto;
+    backdrop-filter: blur(6px);
+  }
+  
+  .frontal-blur-transparent-sm {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.0);
+    z-index: 999;
+    overflow-y: auto;
+    backdrop-filter: blur(2px);
+  }
+
+  .fc-event-main-frame{
+    cursor:pointer; 
+  }
+  .loader {
+    display: inliine;
+    border: 10px solid #8f808000; /* Light grey */
+    border-top: 10px solid #07262f; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    top: calc(50% - 60px);
+    left:calc(50% - 60px);
+    background-color: rgba(255, 255, 255, 0.164);
+    z-index: 999; 
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  thead{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1; /* Asegura que el encabezado aparezca por encima del cuerpo */
+  }
+  
+  .table-container-m {
+    max-height: 72vh; /* Altura máxima de la tabla */
+    overflow-y: auto; /* Habilita el desplazamiento vertical */
+    overflow-y: auto;
+    max-width: 95vw;
+  }
+  .table-container-xs {
+    max-height: 60vh; /* Altura máxima de la tabla */
+    overflow-y: auto; /* Habilita el desplazamiento vertical */
+    
+    overflow-y: auto;
+    max-width: 95vw;
+  }
+  .table-container-s {
+    max-height: 65vh; /* Altura máxima de la tabla */
+    overflow-y: auto; /* Habilita el desplazamiento vertical */
+    overflow-y: auto;
+    background-color: #d4c1c17d;
+    max-width: 95vw;
+  }
+  
+  .table-container-l {
+    max-height: 75vh; /* Altura máxima de la tabla */
+    overflow-y: auto; /* Habilita el desplazamiento vertical */
+    overflow-y: auto;
+    max-width: 95vw;
+  }
+  
+  .table-container-xl {
+    max-height: 80vh; /* Altura máxima de la tabla */
+    overflow-y: auto; /* Habilita el desplazamiento vertical */
+    
+    overflow-y: auto;
+    max-width: 95vw;
+  }
+  
+  .table-container-xxl {
+    max-height: 85vh; /* Altura máxima de la tabla */
+    overflow-y: auto; /* Habilita el desplazamiento vertical */
+    
+    overflow-y: auto;
+    max-width: 95vw;
+  }
+  
+  th{
+    letter-spacing: 1px;
+    text-transform: capitalize;
+  }
+  
+  .table-max {
+    table-layout: auto !important;
+    width: auto !important;
+  }
+
+  .contenedor {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+  }
+  
+  .square-col {
+    position: relative;
+    padding-bottom: 100%; /* Esta regla establece la altura en función del ancho, creando un cuadro cuadrado */
+    background-color: #f0f0f0; /* Puedes establecer un color de fondo opcional */
+  }
+
+  

@@ -1,0 +1,63 @@
+.text-100{
+    font-weight: 100;
+  }
+  .text-200{
+    font-weight: 200;
+  }
+  .text-300{
+    font-weight: 300;
+  }
+  .text-400{
+    font-weight: 400;
+  }
+  .text-500{
+    font-weight: 500;
+  }
+  .text-600{
+    font-weight: 600;
+  }
+  .text-700{
+    font-weight: 700;
+  }
+  .text-800{
+    font-weight: 800;
+  }
+  .text-900{
+    font-weight: 900;
+  }
+  
+  .text-bold{
+    font-weight: bold;
+  }
+  .text-s{
+    font-size: small;
+  }
+  .text-xs{
+    font-size: x-small;
+  }
+  .text-xxs{
+    font-size: xx-small;
+  }
+  .text-m{
+    font-size: medium;
+  }
+  .text-l{
+    font-size: larger;
+  }
+  .text-xl{
+    font-size: large;
+  }
+  .text-xxl{
+    font-size: x-large;
+  }
+  .text-xxxl{
+    font-size: xx-large;
+  }
+
+  .pointer {
+    cursor:pointer; 
+  }
+
+  .nowrap {
+    white-space: nowrap;
+  }
