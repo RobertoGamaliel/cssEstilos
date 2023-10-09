@@ -1,0 +1,127 @@
+{
+	"funcion": {
+		"prefix": "funcion",
+		"body": [
+			"public function $1() {",
+			"",
+			"}"
+		]
+	},
+	"strtolower": {
+		"prefix": "lowercase",
+		"body":"strtolower($1)"
+	},
+	"strtoupper": {
+		"prefix": "uppercase",
+		"body":"strtoupper($1)"
+	},
+	"is_string": {
+		"prefix": "isstring",
+		"body":"is_string($1)"
+	},
+	"is_numeric": {
+		"prefix": "isnumeric",
+		"body":"is_numeric($1)"
+	},
+	"is_arrray": {
+		"prefix": "isarray",
+		"body":"is_array($1)"
+	},
+	"return": {
+		"prefix": "return",
+		"body":"return $1;"
+	},
+	"strlen": {
+		"prefix": "length",
+		"body":"strlen($1)"
+	},
+	"substring": {
+		"prefix": "substring",
+		"body":"substr($1)"
+	},
+	"floatval": {
+		"prefix": "floatval",
+		"body":"floatval($1)"
+	},
+	"intval": {
+		"prefix": "intval",
+		"body":"intval($1)"
+	},
+	"$this": {
+		"prefix": "\\$this->",
+		"body": "\\$this->$1"
+	},
+	"DB::select": {
+		"prefix": "DB::select",
+		"body": "DB::select($1);"
+	},
+	"DB::insert": {
+		"prefix": "DB::insert",
+		"body": "DB::insert($1);"
+	},
+	"DB::delete": {
+		"prefix": "DB::delete",
+		"body": "DB::delete($1);"
+	},
+	"DB::update": {
+		"prefix": "DB::update",
+		"body": "DB::update($1);"
+	},
+	"DB::statement": {
+		"prefix": "DB::statement",
+		"body": "DB::statement($1);"
+	},
+	"INNER JOIN": {
+		"prefix": "inner join",
+		"body": "INNER JOIN $1 ON "
+	},
+	"LEFT JOIN": {
+		"prefix": "left join",
+		"body": "LEFT JOIN $1 ON "
+	},
+	"select *": {
+		"prefix": "select count",
+		"body": "SELECT COUNT($1) "
+	},
+	"select disntinct": {
+		"prefix": "select distinct",
+		"body": "SELECT DISTINCT $1 "
+	},
+	"auto_increment": {
+		"prefix": "auto_increment",
+		"body": "AUTO_INCREMENT$1 "
+	},
+	"NOT NULL": {
+		"prefix": "not null",
+		"body": "NOT NULL $1 "
+	},
+	"left(": {
+		"prefix": "left(",
+		"body": "LEFT($1)"
+	},
+	"RIGHT(": {
+		"prefix": "right(",
+		"body": "RIGHT($1)"
+	},
+	"if({": {
+		"prefix": "if({",
+		"body": [
+			"if($1){",
+			"\t",
+			"}"
+		]
+	},
+	"if(": {
+		"prefix": "if(",
+		"body": "if($1)"
+
+	},
+	"array_key_exists": {
+		"prefix": "array_key_exists",
+		"body": "array_key_exists('$2',\\$$1)"
+	},
+	"count": {
+		"prefix": "count",
+		"body": "count(\\$$1)"
+	}
+}
